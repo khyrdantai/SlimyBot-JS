@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes and files
 const { Client, Intents } = require('discord.js');
-const settings = require('./settings.json');
+const settings = require('./config.json');
 const list_of_people = require('./discord_users.json');
 
 // Create a new bot instance
