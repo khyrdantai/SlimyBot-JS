@@ -9,7 +9,8 @@
     "@discordjs/rest": "^0.3.0",
     "discord-api-types": "^0.27.3",
     "discord.js": "^13.6.0",
-    "dotenv": "16.0.1"
+    "dotenv": "16.0.1",
+    "node": "18.5.0"
   },
   "scripts": {
     "start": "node slimybot.js",
