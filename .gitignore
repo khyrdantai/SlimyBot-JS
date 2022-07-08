@@ -2,3 +2,5 @@ node_modules
 .env
 config.json
 discord_users.json
+.vscode
+.idea

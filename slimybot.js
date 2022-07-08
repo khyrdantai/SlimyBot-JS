@@ -1,7 +1,7 @@
 // Require the necessary discord.js classes and files
 const fs = require('node:fs');
 const { Client, Collection, Intents } = require('discord.js');
-const settings = require('./config.json');
+const env = require('dotenv').config();
 
 // Create a new bot instance with commands
 const slimybot = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -36,5 +36,5 @@ slimybot.on('interactionCreate', async interaction => {
 });
 
 // Login to Discord with the token
-slimybot.login(settings.bot_token).then();
+slimybot.login(process.env.BOT_TOKEN).then();
 
